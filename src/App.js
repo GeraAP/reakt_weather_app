@@ -68,8 +68,7 @@ export default function App(props) {
           <WeatherInfo data={weatherData} forecastData={forecastData} />
 
           <footer>
-    <a href="https://github.com/GeraAP/reakt_weather_app" target="_blank
-"><img src="images/githubcat.jpg" class="git-emoji"/></a>
+    <a href="https://github.com/GeraAP/reakt_weather_app" target="_blank"><img src="/icons-weather/githubcat.png" class="git-emoji"/></a>
     <span class="name"> by Anna Herasymeniuk </span>
 
     <span>Hosted by </span><a href="https://strong-sunshine-662ba7.netlify.app" target="_blank">Netlify</a>
