@@ -5,6 +5,7 @@ import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 
 
+
 export default function App(props) {
   const [weatherData, setWeatherData] = useState({});
   const [city, setCity] = useState(props.defaultCity);
@@ -68,8 +69,9 @@ export default function App(props) {
           <WeatherInfo data={weatherData} forecastData={forecastData} />
 
           <footer>
-    <a href="https://github.com/GeraAP/reakt_weather_app" target="_blank"><img src="/icons-weather/githubcat.png" class="git-emoji"/></a>
+    <a href="https://github.com/GeraAP/reakt_weather_app" target="_blank">Github</a>
     <span class="name"> by Anna Herasymeniuk </span>
+    <br/>
 
     <span>Hosted by </span><a href="https://strong-sunshine-662ba7.netlify.app" target="_blank">Netlify</a>
 </footer>
