@@ -38,11 +38,11 @@ body {
 
 /* Dark Mode Button*/
 
-/* body[theme="dark"] {
+body[theme="dark"] {
   background: #000f21;
   color: #fff;
   border-color: var(--box-colors);
-} */
+}
 
 /* The switch - the box around the slider */
 .switch {
